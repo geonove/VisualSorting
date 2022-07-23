@@ -27,7 +27,7 @@ int main()
   const unsigned int window_width = 400;
   const unsigned int window_height = 500;
 
-	sf::RenderWindow window(sf::VideoMode(window_width, window_height), "SFML works!");
+	sf::RenderWindow window(sf::VideoMode(window_width, window_height), "Visual Sorting");
   window.setFramerateLimit(60);  
   const size_t N = 50;
 

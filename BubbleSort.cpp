@@ -7,8 +7,6 @@
 void BubbleSort::oneStep()
 {
 	//std::cout << "=== Performing one step ===" << std::endl;
-	std::cout << "Current: " << current << ", Counter: " << counter << std::endl;
-
 
 	if (current == counter - 1)	
 	{
@@ -30,7 +28,7 @@ void BubbleSort::oneStep()
 	{
 		counter = vec.size();
 		current = 0;		
-		std::cout << "=== Sorted! ===" << std::endl;
+		//std::cout << "=== Sorted! ===" << std::endl;
 	}
 }
 
@@ -46,7 +44,7 @@ void BubbleSort::draw(sf::RenderWindow &window, bool start)
 
 void BubbleSort::shuffle(const sf::RenderWindow& window)
 {
-	std::cout << "=== Shuffling ===" << std::endl;
+	//std::cout << "=== Shuffling ===" << std::endl;
 	std::random_device rd;
 	std::mt19937 g(rd());
 
